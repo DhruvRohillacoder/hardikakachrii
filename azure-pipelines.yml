@@ -1,0 +1,10 @@
+trigger:
+- main
+
+pool:
+   name: dhruvagent
+
+steps:
+- task: TerraformInstaller@1
+  inputs:
+    terraformVersion: 'latest'
